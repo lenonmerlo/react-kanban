@@ -1,0 +1,88 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Enviar relatório",
+      "description": "Enviar o relatório mensal para o departamento financeiro.",
+      "status": "done",
+      "priority": "high"
+    },
+    {
+      "id": " 2",
+      "title": "Reunião com a equipe",
+      "description": "Reunião para discutir o progresso do projeto e próximos passos.",
+      "status": "todo",
+      "priority": "high"
+    },
+    {
+      "id": "3",
+      "title": "Atualizar o site",
+      "description": "Fazer atualizações no site da empresa com novas informações.",
+      "status": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "4",
+      "title": "Implementar testes",
+      "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
+      "status": "todo",
+      "priority": "medium"
+    },
+    {
+      "id": "5",
+      "title": "Responder e-mails",
+      "description": "Ler e responder e-mails pendentes do dia.",
+      "status": "doing",
+      "priority": "low"
+    },
+    {
+      "id": "6",
+      "title": "Planejar sprint",
+      "description": "Definir backlog e objetivos para a próxima sprint.",
+      "status": "todo",
+      "priority": "high"
+    },
+    {
+      "id": "7",
+      "title": "Depurar código",
+      "description": "Corrigir bugs identificados no sistema.",
+      "status": "doing",
+      "priority": "high"
+    },
+    {
+      "id": " 8",
+      "title": "Criar documentação",
+      "description": "Escrever a documentação para a nova API.",
+      "status": "todo",
+      "priority": "medium"
+    },
+    {
+      "id": "9",
+      "title": "Treinar novo colaborador",
+      "description": "Orientar novo membro da equipe sobre os processos internos.",
+      "status": "doing",
+      "priority": "high"
+    },
+    {
+      "id": "10",
+      "title": "Atualizar banco de dados",
+      "description": "Executar migração para atualizar estrutura do banco de dados.",
+      "status": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "11",
+      "title": "Elaborar proposta comercial",
+      "description": "Criar proposta para possível novo cliente.",
+      "status": "doing",
+      "priority": "high"
+    },
+    {
+      "id": "12",
+      "title": "Revisar código",
+      "description": "Fazer revisão de código do time antes do deploy.",
+      "status": "doing",
+      "priority": "medium"
+    }
+  ]
+}
