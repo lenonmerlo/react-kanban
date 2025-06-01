@@ -26,13 +26,15 @@ export const TasksContextProvider: React.FC<{ children: ReactNode }> = ({ childr
     tasksService.fetchTasks().then((data) => setTasks(data))
   }, [])
 
-  const createTask = async (attributes: Omit<Task, "id">) => {
+  const createTask = async (attributes: Omit<Task, "id">): Promise<Task> => {
     const newTask = await tasksService.createTask(attributes)
-    setTasks ((currentState) => {
-        const updatedTasks = [...currentState, newTask]
-        return updatedTasks
+    setTasks((currentState) => {
+      const updatedTasks = [...currentState, newTask]
+      return updatedTasks
     })
+    return newTask
   }
+
 
   const updateTask = async (id: string, attributes: Partial<Omit<Task, "id">>) => {
     await tasksService.updateTask(id, attributes)
