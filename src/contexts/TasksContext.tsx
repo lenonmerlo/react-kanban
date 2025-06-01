@@ -13,8 +13,8 @@ const UpdateTaskSchema = z.object({
 interface TasksContextData {
   tasks: Task[]
   createTask: (attributes: Omit<Task, "id">) => Promise<Task>
-  updateTask: (id: string, attributes: Partial<Omit<Task, "id">>) => Promise<void>
-  deleteTask: (id: string) => Promise<void>
+  updateTask: (id: string, attributes: Partial<Omit<Task, "id">>) => Promise<Task>
+  deleteTask: (id: string) => Promise<Task>
 }
 
 export const TasksContext = createContext({} as TasksContextData)

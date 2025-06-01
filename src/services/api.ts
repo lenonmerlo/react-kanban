@@ -31,7 +31,7 @@ export const tasksService = {
         return updatedTask
     },
 
-    async deleteTask(id: string): Promise<void> {
+    async deleteTask(id: string): Promise<Task> {
         await fetch(`${import.meta.env.VITE_API_URL}/tasks/${id}`, {
             method: "DELETE"
         })
